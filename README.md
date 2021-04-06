@@ -1,3 +1,5 @@
+这是基于GetX Cli的中国网络优化版本
+
 ###### Documentation languages
 
 | [pt_BR](README-pt_BR.md) | en_US - this file |
