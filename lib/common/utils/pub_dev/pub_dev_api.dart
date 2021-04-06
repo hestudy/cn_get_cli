@@ -8,7 +8,7 @@ import '../logger/log_utils.dart';
 
 class PubDevApi {
   static Future<String> getLatestVersionFromPackage(String package) async {
-    var uri = Uri.parse('https://pub.dev/api/packages/$package');
+    var uri = Uri.parse('https://pub.flutter-io.cn/api/packages/$package');
     var res = await get(uri).then((value) {
       if (value.statusCode == 200) {
         return json.decode(value.body)['latest']['version'];
